@@ -27,6 +27,8 @@ public class M2IocContainerApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         myBean.getName("John");
         myBean2.getName("Kanha");
+        IO.println("MyBean: " + myBean);
+        IO.println("MyBean2: " + myBean2);
     }
 
     public static void main(String[] args) {
