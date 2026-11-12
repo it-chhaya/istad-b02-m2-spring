@@ -20,5 +20,4 @@ public class MyTest {
         IO.println("Coffee: " + coffee);
         IO.println("Coffee2: " + coffee2);
     }
-
 }
